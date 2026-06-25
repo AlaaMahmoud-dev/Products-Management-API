@@ -127,6 +127,82 @@ Deletes a product by its identifier.
 }
 ```
 
+## 📸 Screenshots
+
+---
+
+### 🔹 Swagger (API Documentation)
+
+#### Get Info
+<img src="images/GetInfo Swager.jpeg" width="900">
+
+*Get detailed product information via Swagger API endpoint.*
+
+---
+
+#### Search
+<img src="images/search swager.jpeg" width="900">
+
+*Search for products using Swagger testing interface.*
+
+---
+
+#### Full Swagger Overview
+<img src="images/swager full.png" width="900">
+
+*Complete API documentation showing all available endpoints.*
+
+---
+
+### 🖥️ Win Forms - Add / Update
+
+#### Add Product
+<img src="images/add win form.jpeg" width="900">
+
+*Form used to add a new product into the system.*
+
+---
+
+#### Update Product
+<img src="images/update win form.jpeg" width="900">
+
+*Allows editing and updating existing product details.*
+
+---
+
+### 🔍 Search Features
+
+#### Search for product 1
+<img src="images/search win form 1.png" width="900">
+
+*Basic search interface for filtering products.*
+
+---
+
+#### Search for product 2
+<img src="images/search win form 2.png" width="900">
+
+*Selected product info was filled.*
+
+---
+
+### 🗑️ Delete Features
+
+#### Delete product 1
+<img src="images/delete win form.jpeg" width="900">
+
+*Interface for deleting selected products.*
+
+---
+
+#### Delete product 2
+<img src="images/delete win form 2.jpeg" width="900">
+
+*Confirmation and deletion workflow for product removal.*
+
+---
+
+
 ## Learning Objectives
 
 This project was built to practice and strengthen knowledge in:
