@@ -20,7 +20,7 @@ namespace ProductsModels
         public DateTime CreatedAt { get; set; }
         public ProductDTO()
         {
-
+            CreatedAt = DateTime.Now;
         }
         public ProductDTO(int Id, string ProductName, decimal Price,
             int Quantity, decimal Tax, DateTime CreatedAt)

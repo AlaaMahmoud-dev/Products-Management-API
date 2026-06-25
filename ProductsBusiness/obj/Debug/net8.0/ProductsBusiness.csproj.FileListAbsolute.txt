@@ -15,3 +15,21 @@ C:\Data\Programming\Technical Assesment Practice\ProductsBusiness\obj\Debug\net8
 C:\Data\Programming\Technical Assesment Practice\ProductsBusiness\obj\Debug\net8.0\refint\ProductsBusiness.dll
 C:\Data\Programming\Technical Assesment Practice\ProductsBusiness\obj\Debug\net8.0\ProductsBusiness.pdb
 C:\Data\Programming\Technical Assesment Practice\ProductsBusiness\obj\Debug\net8.0\ref\ProductsBusiness.dll
+C:\Data\Programming\Products-Management-API\ProductsBusiness\bin\Debug\net8.0\ProductsBusiness.deps.json
+C:\Data\Programming\Products-Management-API\ProductsBusiness\bin\Debug\net8.0\ProductsBusiness.dll
+C:\Data\Programming\Products-Management-API\ProductsBusiness\bin\Debug\net8.0\ProductsBusiness.pdb
+C:\Data\Programming\Products-Management-API\ProductsBusiness\bin\Debug\net8.0\ProductsDataAccess.dll
+C:\Data\Programming\Products-Management-API\ProductsBusiness\bin\Debug\net8.0\ProductsModels.dll
+C:\Data\Programming\Products-Management-API\ProductsBusiness\bin\Debug\net8.0\ProductsDataAccess.pdb
+C:\Data\Programming\Products-Management-API\ProductsBusiness\bin\Debug\net8.0\ProductsModels.pdb
+C:\Data\Programming\Products-Management-API\ProductsBusiness\obj\Debug\net8.0\ProductsBusiness.csproj.AssemblyReference.cache
+C:\Data\Programming\Products-Management-API\ProductsBusiness\obj\Debug\net8.0\ProductsBusiness.GeneratedMSBuildEditorConfig.editorconfig
+C:\Data\Programming\Products-Management-API\ProductsBusiness\obj\Debug\net8.0\ProductsBusiness.AssemblyInfoInputs.cache
+C:\Data\Programming\Products-Management-API\ProductsBusiness\obj\Debug\net8.0\ProductsBusiness.AssemblyInfo.cs
+C:\Data\Programming\Products-Management-API\ProductsBusiness\obj\Debug\net8.0\ProductsBusiness.csproj.CoreCompileInputs.cache
+C:\Data\Programming\Products-Management-API\ProductsBusiness\obj\Debug\net8.0\ProductsBusiness.sourcelink.json
+C:\Data\Programming\Products-Management-API\ProductsBusiness\obj\Debug\net8.0\Products.89361FA3.Up2Date
+C:\Data\Programming\Products-Management-API\ProductsBusiness\obj\Debug\net8.0\ProductsBusiness.dll
+C:\Data\Programming\Products-Management-API\ProductsBusiness\obj\Debug\net8.0\refint\ProductsBusiness.dll
+C:\Data\Programming\Products-Management-API\ProductsBusiness\obj\Debug\net8.0\ProductsBusiness.pdb
+C:\Data\Programming\Products-Management-API\ProductsBusiness\obj\Debug\net8.0\ref\ProductsBusiness.dll

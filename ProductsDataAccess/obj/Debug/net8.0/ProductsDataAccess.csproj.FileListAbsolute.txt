@@ -13,3 +13,19 @@ C:\Data\Programming\Technical Assesment Practice\ProductsDataAccess\obj\Debug\ne
 C:\Data\Programming\Technical Assesment Practice\ProductsDataAccess\obj\Debug\net8.0\refint\ProductsDataAccess.dll
 C:\Data\Programming\Technical Assesment Practice\ProductsDataAccess\obj\Debug\net8.0\ProductsDataAccess.pdb
 C:\Data\Programming\Technical Assesment Practice\ProductsDataAccess\obj\Debug\net8.0\ref\ProductsDataAccess.dll
+C:\Data\Programming\Products-Management-API\ProductsDataAccess\bin\Debug\net8.0\ProductsDataAccess.deps.json
+C:\Data\Programming\Products-Management-API\ProductsDataAccess\bin\Debug\net8.0\ProductsDataAccess.dll
+C:\Data\Programming\Products-Management-API\ProductsDataAccess\bin\Debug\net8.0\ProductsDataAccess.pdb
+C:\Data\Programming\Products-Management-API\ProductsDataAccess\bin\Debug\net8.0\ProductsModels.dll
+C:\Data\Programming\Products-Management-API\ProductsDataAccess\bin\Debug\net8.0\ProductsModels.pdb
+C:\Data\Programming\Products-Management-API\ProductsDataAccess\obj\Debug\net8.0\ProductsDataAccess.csproj.AssemblyReference.cache
+C:\Data\Programming\Products-Management-API\ProductsDataAccess\obj\Debug\net8.0\ProductsDataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Data\Programming\Products-Management-API\ProductsDataAccess\obj\Debug\net8.0\ProductsDataAccess.AssemblyInfoInputs.cache
+C:\Data\Programming\Products-Management-API\ProductsDataAccess\obj\Debug\net8.0\ProductsDataAccess.AssemblyInfo.cs
+C:\Data\Programming\Products-Management-API\ProductsDataAccess\obj\Debug\net8.0\ProductsDataAccess.csproj.CoreCompileInputs.cache
+C:\Data\Programming\Products-Management-API\ProductsDataAccess\obj\Debug\net8.0\ProductsDataAccess.sourcelink.json
+C:\Data\Programming\Products-Management-API\ProductsDataAccess\obj\Debug\net8.0\Products.B46AD87C.Up2Date
+C:\Data\Programming\Products-Management-API\ProductsDataAccess\obj\Debug\net8.0\ProductsDataAccess.dll
+C:\Data\Programming\Products-Management-API\ProductsDataAccess\obj\Debug\net8.0\refint\ProductsDataAccess.dll
+C:\Data\Programming\Products-Management-API\ProductsDataAccess\obj\Debug\net8.0\ProductsDataAccess.pdb
+C:\Data\Programming\Products-Management-API\ProductsDataAccess\obj\Debug\net8.0\ref\ProductsDataAccess.dll

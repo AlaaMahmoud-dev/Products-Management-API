@@ -96,10 +96,10 @@
             Controls.Add(btnSearch);
             Controls.Add(label1);
             Controls.Add(txtName);
-            FormBorderStyle = FormBorderStyle.None;
+            FormBorderStyle = FormBorderStyle.FixedToolWindow;
             Name = "frmSearch";
             StartPosition = FormStartPosition.CenterScreen;
-            Text = "frmSearch";
+            Text = "Search For Product";
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ResumeLayout(false);
             PerformLayout();

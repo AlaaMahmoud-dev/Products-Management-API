@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Data\\Programming\\Technical Assesment Practice\\ProductsBusiness\\ProductsBusiness.csproj": {}
+    "C:\\Data\\Programming\\Products-Management-API\\ProductsBusiness\\ProductsBusiness.csproj": {}
   },
   "projects": {
-    "C:\\Data\\Programming\\Technical Assesment Practice\\ProductsBusiness\\ProductsBusiness.csproj": {
+    "C:\\Data\\Programming\\Products-Management-API\\ProductsBusiness\\ProductsBusiness.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Data\\Programming\\Technical Assesment Practice\\ProductsBusiness\\ProductsBusiness.csproj",
+        "projectUniqueName": "C:\\Data\\Programming\\Products-Management-API\\ProductsBusiness\\ProductsBusiness.csproj",
         "projectName": "ProductsBusiness",
-        "projectPath": "C:\\Data\\Programming\\Technical Assesment Practice\\ProductsBusiness\\ProductsBusiness.csproj",
+        "projectPath": "C:\\Data\\Programming\\Products-Management-API\\ProductsBusiness\\ProductsBusiness.csproj",
         "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
-        "outputPath": "C:\\Data\\Programming\\Technical Assesment Practice\\ProductsBusiness\\obj\\",
+        "outputPath": "C:\\Data\\Programming\\Products-Management-API\\ProductsBusiness\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,11 +32,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Data\\Programming\\Technical Assesment Practice\\ProductsDataAccess\\ProductsDataAccess.csproj": {
-                "projectPath": "C:\\Data\\Programming\\Technical Assesment Practice\\ProductsDataAccess\\ProductsDataAccess.csproj"
+              "C:\\Data\\Programming\\Products-Management-API\\ProductsDataAccess\\ProductsDataAccess.csproj": {
+                "projectPath": "C:\\Data\\Programming\\Products-Management-API\\ProductsDataAccess\\ProductsDataAccess.csproj"
               },
-              "C:\\Data\\Programming\\Technical Assesment Practice\\ProductsModels\\ProductsModels.csproj": {
-                "projectPath": "C:\\Data\\Programming\\Technical Assesment Practice\\ProductsModels\\ProductsModels.csproj"
+              "C:\\Data\\Programming\\Products-Management-API\\ProductsModels\\ProductsModels.csproj": {
+                "projectPath": "C:\\Data\\Programming\\Products-Management-API\\ProductsModels\\ProductsModels.csproj"
               }
             }
           }
@@ -76,14 +76,14 @@
         }
       }
     },
-    "C:\\Data\\Programming\\Technical Assesment Practice\\ProductsDataAccess\\ProductsDataAccess.csproj": {
+    "C:\\Data\\Programming\\Products-Management-API\\ProductsDataAccess\\ProductsDataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Data\\Programming\\Technical Assesment Practice\\ProductsDataAccess\\ProductsDataAccess.csproj",
+        "projectUniqueName": "C:\\Data\\Programming\\Products-Management-API\\ProductsDataAccess\\ProductsDataAccess.csproj",
         "projectName": "ProductsDataAccess",
-        "projectPath": "C:\\Data\\Programming\\Technical Assesment Practice\\ProductsDataAccess\\ProductsDataAccess.csproj",
+        "projectPath": "C:\\Data\\Programming\\Products-Management-API\\ProductsDataAccess\\ProductsDataAccess.csproj",
         "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
-        "outputPath": "C:\\Data\\Programming\\Technical Assesment Practice\\ProductsDataAccess\\obj\\",
+        "outputPath": "C:\\Data\\Programming\\Products-Management-API\\ProductsDataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -104,8 +104,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Data\\Programming\\Technical Assesment Practice\\ProductsModels\\ProductsModels.csproj": {
-                "projectPath": "C:\\Data\\Programming\\Technical Assesment Practice\\ProductsModels\\ProductsModels.csproj"
+              "C:\\Data\\Programming\\Products-Management-API\\ProductsModels\\ProductsModels.csproj": {
+                "projectPath": "C:\\Data\\Programming\\Products-Management-API\\ProductsModels\\ProductsModels.csproj"
               }
             }
           }
@@ -151,14 +151,14 @@
         }
       }
     },
-    "C:\\Data\\Programming\\Technical Assesment Practice\\ProductsModels\\ProductsModels.csproj": {
+    "C:\\Data\\Programming\\Products-Management-API\\ProductsModels\\ProductsModels.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Data\\Programming\\Technical Assesment Practice\\ProductsModels\\ProductsModels.csproj",
+        "projectUniqueName": "C:\\Data\\Programming\\Products-Management-API\\ProductsModels\\ProductsModels.csproj",
         "projectName": "ProductsModels",
-        "projectPath": "C:\\Data\\Programming\\Technical Assesment Practice\\ProductsModels\\ProductsModels.csproj",
+        "projectPath": "C:\\Data\\Programming\\Products-Management-API\\ProductsModels\\ProductsModels.csproj",
         "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
-        "outputPath": "C:\\Data\\Programming\\Technical Assesment Practice\\ProductsModels\\obj\\",
+        "outputPath": "C:\\Data\\Programming\\Products-Management-API\\ProductsModels\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

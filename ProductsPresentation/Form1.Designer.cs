@@ -46,6 +46,7 @@
             btnSearch = new Button();
             btnRefresh = new Button();
             dataGridView1 = new DataGridView();
+            btnDelete = new Button();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
             // 
@@ -226,11 +227,22 @@
             dataGridView1.TabIndex = 19;
             dataGridView1.CellContentClick += dataGridView1_CellContentClick;
             // 
+            // btnDelete
+            // 
+            btnDelete.Location = new Point(254, 279);
+            btnDelete.Name = "btnDelete";
+            btnDelete.Size = new Size(74, 34);
+            btnDelete.TabIndex = 20;
+            btnDelete.Text = "Delete";
+            btnDelete.UseVisualStyleBackColor = true;
+            btnDelete.Click += btnDelete_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 514);
+            Controls.Add(btnDelete);
             Controls.Add(dataGridView1);
             Controls.Add(btnRefresh);
             Controls.Add(btnSearch);
@@ -277,5 +289,6 @@
         private Button btnSearch;
         private Button btnRefresh;
         private DataGridView dataGridView1;
+        private Button btnDelete;
     }
 }

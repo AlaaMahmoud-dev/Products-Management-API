@@ -9,3 +9,15 @@ C:\Data\Programming\Technical Assesment Practice\ProductsModels\obj\Debug\net8.0
 C:\Data\Programming\Technical Assesment Practice\ProductsModels\obj\Debug\net8.0\refint\ProductsModels.dll
 C:\Data\Programming\Technical Assesment Practice\ProductsModels\obj\Debug\net8.0\ProductsModels.pdb
 C:\Data\Programming\Technical Assesment Practice\ProductsModels\obj\Debug\net8.0\ref\ProductsModels.dll
+C:\Data\Programming\Products-Management-API\ProductsModels\bin\Debug\net8.0\ProductsModels.deps.json
+C:\Data\Programming\Products-Management-API\ProductsModels\bin\Debug\net8.0\ProductsModels.dll
+C:\Data\Programming\Products-Management-API\ProductsModels\bin\Debug\net8.0\ProductsModels.pdb
+C:\Data\Programming\Products-Management-API\ProductsModels\obj\Debug\net8.0\ProductsModels.GeneratedMSBuildEditorConfig.editorconfig
+C:\Data\Programming\Products-Management-API\ProductsModels\obj\Debug\net8.0\ProductsModels.AssemblyInfoInputs.cache
+C:\Data\Programming\Products-Management-API\ProductsModels\obj\Debug\net8.0\ProductsModels.AssemblyInfo.cs
+C:\Data\Programming\Products-Management-API\ProductsModels\obj\Debug\net8.0\ProductsModels.csproj.CoreCompileInputs.cache
+C:\Data\Programming\Products-Management-API\ProductsModels\obj\Debug\net8.0\ProductsModels.sourcelink.json
+C:\Data\Programming\Products-Management-API\ProductsModels\obj\Debug\net8.0\ProductsModels.dll
+C:\Data\Programming\Products-Management-API\ProductsModels\obj\Debug\net8.0\refint\ProductsModels.dll
+C:\Data\Programming\Products-Management-API\ProductsModels\obj\Debug\net8.0\ProductsModels.pdb
+C:\Data\Programming\Products-Management-API\ProductsModels\obj\Debug\net8.0\ref\ProductsModels.dll

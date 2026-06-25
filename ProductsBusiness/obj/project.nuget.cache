@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QNZnl+gKf8Q=",
+  "dgSpecHash": "2jcqEvra5P4=",
   "success": true,
-  "projectFilePath": "C:\\Data\\Programming\\Technical Assesment Practice\\ProductsBusiness\\ProductsBusiness.csproj",
+  "projectFilePath": "C:\\Data\\Programming\\Products-Management-API\\ProductsBusiness\\ProductsBusiness.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\pc\\.nuget\\packages\\microsoft.bcl.cryptography\\8.0.0\\microsoft.bcl.cryptography.8.0.0.nupkg.sha512",
     "C:\\Users\\pc\\.nuget\\packages\\microsoft.data.sqlclient\\7.0.1\\microsoft.data.sqlclient.7.0.1.nupkg.sha512",

@@ -10,7 +10,7 @@ namespace ProductsPresentation
         ProductDTO product = new ProductDTO();
         enum enMode
         {
-            AddNew,Update
+            AddNew, Update
         }
         enMode Mode = enMode.AddNew;
         public Form1()
@@ -37,36 +37,63 @@ namespace ProductsPresentation
         }
         private async void _AddNew()
         {
-
+            bool IsSuccessed = true;
             var responce = await clsGlobal.Client.PostAsJsonAsync<ProductDTO>("AddNew", product);
             if (responce.IsSuccessStatusCode)
             {
                 var productInfo = await responce.Content.ReadFromJsonAsync<ProductDTO>();
                 if (productInfo == null)
+                    IsSuccessed = false;
+                else
                 {
-                    MessageBox.Show("Saving Data Failed");
-                    return;
+                    product.Id = productInfo.Id;
+                    lblID.Text = product.Id.ToString();
+                    Mode = enMode.Update;
                 }
-                product.Id = productInfo.Id;
-                lblID.Text = product.Id.ToString();
-                Mode = enMode.Update;
+
+
             }
+            else
+                IsSuccessed = false;
+
+            if (!IsSuccessed)
+            {
+                MessageBox.Show("Saving Data Failed");
+                return;
+            }
+            MessageBox.Show($"New Product was added successfully with id {product.Id}.",
+              "Added Successfully", MessageBoxButtons.OK, MessageBoxIcon.Information);
             await _LoadData();
         }
         private async void _Update()
         {
+            bool IsSuccessed = true;
             var responce = await clsGlobal.Client.PutAsJsonAsync<ProductDTO>("Update", product);
             if (responce.IsSuccessStatusCode)
             {
                 var productInfo = await responce.Content.ReadFromJsonAsync<ProductDTO>();
                 if (productInfo == null)
                 {
-                    MessageBox.Show("Saving Data Failed");
-                    return;
+                    IsSuccessed = false;
+
                 }
-              
+
             }
+            else
+            {
+                IsSuccessed = false;
+
+            }
+            if (!IsSuccessed)
+            {
+                MessageBox.Show("Saving Data Failed");
+                return;
+            }
+            MessageBox.Show($"Product with id {product.Id} was updated successfully.",
+ "Updated Successfully", MessageBoxButtons.OK, MessageBoxIcon.Information);
             await _LoadData();
+
+
         }
         private void Save()
         {
@@ -74,7 +101,7 @@ namespace ProductsPresentation
             product.Tax = Convert.ToDecimal(txtTax.Text);
             product.ProductName = txtName.Text;
             product.Quantity = Convert.ToInt32(txtQuantity.Text);
-            product.CreatedAt = DateTime.Now;
+
             if (Mode == enMode.AddNew)
                 _AddNew();
             else
@@ -82,8 +109,8 @@ namespace ProductsPresentation
         }
         private async void btnSave_Click(object sender, EventArgs e)
         {
+            Save();
 
-           
         }
 
         private void CalculateTotalPrice()
@@ -122,23 +149,34 @@ namespace ProductsPresentation
             CalculateTotalPrice();
         }
 
+        private void _ResetDefaultValues()
+        {
+            lblCreatedAt.Text = DateTime.Now.ToString("yyyy/MM/dd");
+            lblID.Text = "[????]";
+            lblTotal.Text = "[????]";
+            txtName.Text = "";
+            txtPrice.Text = "";
+            txtQuantity.Text = "";
+            txtTax.Text = "";
+            Mode = enMode.AddNew;
+        }
         private async void btnRefresh_Click(object sender, EventArgs e)
         {
-            await _LoadData();
+            _ResetDefaultValues();
         }
         private async void OnProductSelected(int id)
         {
-             product = await clsGlobal.Client.GetFromJsonAsync<ProductDTO>($"{id}");
-
+            product = await clsGlobal.Client.GetFromJsonAsync<ProductDTO>($"{id}");
+            Mode = enMode.Update;
             FillProductInfo();
 
-            
+
         }
         private void btnSearch_Click(object sender, EventArgs e)
         {
             frmSearch search = new frmSearch();
             search.ProductSelected += OnProductSelected;
-            search.ShowDialog();
+            search.Show();
         }
         private void FillProductInfo()
         {
@@ -159,7 +197,31 @@ namespace ProductsPresentation
             product = await clsGlobal.Client.GetFromJsonAsync<ProductDTO>($"{productID}");
 
             FillProductInfo();
-            
+
+        }
+
+        private async void btnDelete_Click(object sender, EventArgs e)
+        {
+            if (product == null)
+            {
+                MessageBox.Show("Selected Product First.");
+                return;
+            }
+            if (MessageBox.Show($"Are you sure you want to deleted product with id {product.Id}??",
+                "Confimation Message", MessageBoxButtons.YesNoCancel, MessageBoxIcon.Question) == DialogResult.Yes)
+            {
+                var responce = await clsGlobal.Client.DeleteAsync($"{product.Id}");
+                if (responce.IsSuccessStatusCode)
+                {
+                    MessageBox.Show($"Product with id {product.Id} was deleted successfully.",
+                   "Deleted Successfully", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    await _LoadData();
+                }
+                else
+                {
+                    MessageBox.Show("Deleting selected product is not allowed because it is linked to another data.", "Not Allowed");
+                }
+            }
         }
     }
 }
